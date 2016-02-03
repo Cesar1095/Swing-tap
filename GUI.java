@@ -1,3 +1,4 @@
+
 import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JFrame;
@@ -16,8 +17,7 @@ public class GUI
      
     // display the jpanel in a joptionpane dialog, using showMessageDialog
     JFrame frame = new JFrame("JOptionPane showMessageDialog component example");
-    showMessageDialog(frame, panel);
-    showInputDialog(frame, "What's your name?"); 
+    JOptionPane.showMessageDialog(frame, panel);
     System.exit(0);
   }
 }
